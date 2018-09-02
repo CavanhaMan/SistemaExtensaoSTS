@@ -1,0 +1,71 @@
+  167  cd SistemaExtensaoSTS/
+  168  git init
+  169  git status
+  170  git add .
+  171  git commit -m "Versao iniical do projeto"
+  172  git status
+  173  git branch
+  174  git branch -v
+  175  git branch design
+  176  git branch -v
+  177  git checkout design
+  178  git branch -v
+  179  git status
+  180  git add .
+  181  git commit -m "Nova classe teste"
+  182  git status
+  183  git checkout loja
+  184  git branch loja
+  185  git checkout loja
+  186  git checkout loja -b
+  187  git checkout -b loja
+  188  git branch -v
+  189  git checkout master
+  190  git branch -v
+  191  git branch -d loja
+  192  git branch -D loja
+  193  git branch -v
+  194  git status
+  195  git add .
+  196  git commit -m "Nova classe TesteMaster"
+  197  git branch --no-merged
+  198  git merge design -m "Mesclando com a branch design"
+  199  git branch --no-merged
+  200  git status
+  201  git branch -v
+  202  git branch design
+  203  git checkout design
+  204  git branch -v
+  205  git add .
+  206  git commit -m "Adicionando campo nome"
+  207  git checkout design
+  208  git branch -v
+  209  git add .
+  210  git commit -m "Adicionando campo idade"
+  211  git rebase design
+  212  git rebase master
+  213  git status
+  214  git add .
+  215  git status
+  216  git commit -m "Rebase"
+  217  git log --oneline --parents
+  218  git tag
+  219  git tag v1.0
+  220  git tag
+  221  git log --oneline --decorate --parents
+  222  git add .
+  223  git commit -m "Rebase - conflitos resolvidos"
+  224  git branch -v
+  225  git checkout master
+  226  git log --oneline --decorate --parents
+  227  git tag vTeste 6cae7f4
+  228  git log --oneline --decorate --parents
+  229  git tag vInicio c59be35
+  230  git log --oneline --decorate --parents
+  231  git tag vInicio c59be35 -d
+  232  git log --oneline --decorate --parents
+  233  git tag vInicio c59be35
+  234  git tag vInicio -d
+  235  git log --oneline --decorate --parents
+  236  git status
+  237  history > historico.txt
