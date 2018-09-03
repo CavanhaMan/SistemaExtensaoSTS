@@ -69,3 +69,37 @@
   235  git log --oneline --decorate --parents
   236  git status
   237  history > historico.txt
+  238  git add .
+  239  git commit -m "Adicionando arquivo de historico de comandos"
+  240  git log
+  241  git config --global user.email "cavanhaman@hotmail.com"
+  242  cls
+  243  clear
+  244  git remote add origin https://github.com/CavanhaMan/SistemaExtensaoSTS.git
+  245  git push
+  246  git push -u origin master
+  247  git status
+  248  git rebase --continue
+  249  git branch -v
+  250  git checkout design
+  251  git checkout master
+  252* 
+  253  git branch -v
+  254  git rebase master
+  255  rm -fr "D:/cavanhaman2/SistemaExtensaoSTS/.git/rebase-apply"
+  256* 
+  257  git rebase design
+  258  git branch -v
+  259  git rebase --continue
+  260  git add .
+  261  git rebase --continue
+  262  git add .
+  263  git rebase --continue
+  264  git add .
+  265  git log --oneline --decorate --parents
+  266  git tag vInicio c59be35
+  267  git tag vTeste ea5b854
+  268  git tag vTeste2 ea5b854
+  269  git tag vInicio -d
+  270  git log --oneline --decorate --parents
+  271  history > historico.txt
